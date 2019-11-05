@@ -15,13 +15,15 @@ face global string rgb:99ad6a     # String
 face global error white,red+rb    # Error
 face global keyword rgb:8197bf    # Statement ?
 face global operator identifier   # no equiv? (e.g. `||` unhighlighted)
-face global attribute keyword     # unsure - desertex uses same for these ?
+face global attribute identifier  # unsure - desertex uses same for these ?
 face global comment rgb:888888+i  # Comment
 
 face global meta rgb:799d6a       # SpecialChar -> Special
 
 face global title rgb:70b950+b    # Title
 face global header title          # FIXME: here
+
+face global module type # Elixir Module.Atoms
 
 } # end `jellybeans-theme` command
 
